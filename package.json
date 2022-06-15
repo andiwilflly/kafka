@@ -1,12 +1,13 @@
 {
   "name": "@andiwillfly/kafka",
-  "version": "2.0.1",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "repository": "andiwilflly/kafka",
-  "private": true,
+  "private": false,
   "license": "UNLICENSED",
   "scripts": {
+    "publish": "npm publish --access=public",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
